@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simli Agent",
-  description: "create-simli-agent",
+  title: "Metatron",
+  description: "prince of presence",
 };
 
 export default function RootLayout({

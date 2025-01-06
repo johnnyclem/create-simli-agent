@@ -30,8 +30,8 @@ export default function VideoBox({ id }: any) {
   }, [audioTrack, audioSrcObjectSet]);
 
   return (
-    <div className='h-full'>
-      {videoTrack && <video autoPlay muted playsInline ref={videoElement} />}
+    <div className='w-[90vw] max-w-screen-xl mx-auto'>
+      {videoTrack && <video className="w-full h-auto" autoPlay muted playsInline ref={videoElement} />}
       {audioTrack && <audio autoPlay playsInline ref={audioElement} />}
     </div>
   );
