@@ -15,13 +15,12 @@ const SimliHeaderLogo = ({ className, children }: Props) => {
   const pathname = usePathname();
 
   const handleClick = async () => {
-    console.log('Clicked Simli logo', pathname);
-    window.open('https://simli.com');
+    window.open('https://x.com/PrinceMetatron');
   };
 
   return (
     <div className={cn('fixed top-[32px] left-[32px] cursor-pointer', className)} onClick={handleClick}>
-      <Image src={logo} className='Logo' alt='Simli logo' />
+      <h2>$MTRON</h2>
     </div>
   );
 };
