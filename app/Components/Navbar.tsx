@@ -10,27 +10,29 @@ export default function Navbar() {
               }}
               className="block cursor-pointer py-2 px-3 text-gray-900 rounded   md:border-0 md:p-0 dark:text-white hover:underline    "
             >
-              Documentation
+              sou.ls
             </a>
           </li>
           <li>
             <a
               onClick={() => {
-                window.open("https://mind.eth");
+                window.open("https://bo.dy");
               }}
               className="block cursor-pointer py-2 px-3 text-gray-900 rounded   md:border-0  md:p-0 dark:text-white hover:underline    "
             >
-              Create Avatar
+              <b>
+                bo.dy
+              </b>
             </a>
           </li>
           <li>
             <a
               onClick={() => {
-                window.open("https://brain.box");
+                window.open("https://6079.ai");
               }}
               className="block cursor-pointer py-2 px-3 text-gray-900 rounded   md:border-0  md:p-0 dark:text-white hover:underline    "
             >
-              Discord
+              $THINK
             </a>
           </li>
         </ul>
