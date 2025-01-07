@@ -133,8 +133,8 @@ const SimliAgent: React.FC<SimliAgentProps> = ({ onStart, onClose }) => {
   return (
     <>
       {isAvatarVisible && (
-        <div className="h-[350px] w-[350px]">
-          <div className="h-[350px] w-[350px]">
+        <div className="h-[50px] w-[50px]">
+          <div className="h-[50px] w-[50px]">
             <DailyProvider callObject={callObject}>
               {chatbotId && <VideoBox key={chatbotId} id={chatbotId} />}
             </DailyProvider>
